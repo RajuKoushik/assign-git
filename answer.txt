@@ -1,0 +1,112 @@
+﻿Raju Koushik Gorantla
+
+
+What is a gitignore file and what should it include for a Java project? 
+
+
+The gitignore file deliberately ignores all the untracked files in the java project.
+
+
+These are the the things included in the Java project - 
+
+
+
+
+	# Compiled class file
+	
+
+	*.class
+	
+
+	
+
+	
+
+	# Log file
+	
+
+	*.log
+	
+
+	
+
+
+	
+
+	# BlueJ files
+	
+
+	*.ctxt
+	
+
+	
+
+
+	
+
+	# Mobile Tools for Java (J2ME)
+	
+
+	.mtj.tmp/
+	
+
+	
+
+
+	
+
+	# Package Files #
+	
+
+	*.jar
+	
+
+	*.war
+	
+
+	*.nar
+	
+
+	*.ear
+	
+
+	*.zip
+	
+
+	*.tar.gz
+	
+
+	*.rar
+	
+
+	
+
+	
+
+	# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+	
+
+	hs_err_pid*
+	
+
+So these are the files which have to be ignored in the java project.
+
+
+What does fast-forward in Git mean?
+
+
+Git fast-forward means that we update the HEAD pointer without merging any commits in a such a way that its new value is a descendant of the prior values. 
+
+
+
+
+Why should you have different branches? 
+
+
+We should have different branches so that multiple people can work on the same files of the given project and avoid merge conflicts.
+
+
+In a project how many remote Git repositories do you usually have?
+
+
+We can have several git repositories of a project which is either read only or read/write.
